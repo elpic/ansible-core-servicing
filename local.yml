@@ -1,0 +1,7 @@
+- hosts: localhost
+
+  tasks:
+    - name: Developer Tools related tasks
+      ansible.builtin.include_tasks:
+        file: tasks/developer-tools.yml
+
