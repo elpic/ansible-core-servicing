@@ -9,6 +9,16 @@
     - asdf
     - version-manager
 
+- name: Install minikube
+  community.general.homebrew:
+    name: minikube
+    state: present
+  tags:
+    - developer-tools
+    - install
+    - minikube
+    - kubernetes
+
 - name: Install asdf plugins and software
   shell: ./bin/asdf/asdf install
   tags:
