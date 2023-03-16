@@ -1,0 +1,11 @@
+---
+- name: Install rancher
+  community.general.homebrew_cask:
+    name: rancher
+    state: present
+  tags:
+    - desktop-tools
+    - install
+    - rancher
+    - rancher-desktop
+    - kubernetes

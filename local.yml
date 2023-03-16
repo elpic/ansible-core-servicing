@@ -5,3 +5,7 @@
       ansible.builtin.include_tasks:
         file: tasks/developer-tools.yml
 
+    - name: Desktop Tools related tasks
+      ansible.builtin.include_tasks:
+        file: tasks/desktop-tools.yml
+
