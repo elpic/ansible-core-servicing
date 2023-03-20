@@ -1,7 +1,7 @@
 declare -a plugin_and_versions=(
 	"skaffold,2.2.0"
 	"skaffold,1.39.1"
-	"gcloud,latest"
+	"gcloud,422.0.0"
 	"helm,3.11.2"
 )
 
