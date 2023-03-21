@@ -9,6 +9,17 @@
     - asdf
     - version-manager
 
+- name: Install stern
+  community.general.homebrew:
+    name: stern
+    state: present
+  tags:
+    - developer-tools
+    - install
+    - stern
+    - kubernetes
+    - logs
+
 - name: Install minikube
   community.general.homebrew:
     name: minikube
