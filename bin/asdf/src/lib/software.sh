@@ -3,6 +3,7 @@ declare -a plugin_and_versions=(
 	"skaffold,1.39.1"
 	"gcloud,422.0.0"
 	"helm,3.11.2"
+	"python,3.9.16"
 )
 
 # This function receive a function that is going to be executed
